@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>포트폴리오 — Web · UI · UX · Slides · Docs</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="container nav-inner">
+      <div class="brand">포트폴리오</div>
+      <div class="nav-right">
+        <div class="search">
+          <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M10 4a6 6 0 104.472 10.03l4.249 4.248 1.414-1.414-4.248-4.249A6 6 0 0010 4zm0 2a4 4 0 110 8 4 4 0 010-8z"/></svg>
+          <input id="searchInput" placeholder="프로젝트 검색 (제목/태그)" />
+        </div>
+        <a id="resumeBtn" class="btn btn-secondary" href="#" download>이력서</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="container hero">
+    <div class="hero-left">
+      <h1 id="profileName" class="title"></h1>
+      <p id="profileRole" class="subtitle"></p>
+      <p id="profileBio" class="desc"></p>
+      <div id="profileBadges" class="badges" aria-label="기술 배지"></div>
+      <div class="cta">
+        <a id="githubLink" class="btn" target="_blank" rel="noreferrer">GitHub</a>
+        <a id="linkedinLink" class="btn btn-secondary" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+    </div>
+
+    <!-- CONTACT: 메인 PPT + 전화 -->
+    <aside class="card contact">
+      <h2 class="section-title">Contact</h2>
+      <div class="kv">
+        <span>메인 PPT</span>
+        <span><a id="profilePPT" target="_blank" rel="noreferrer">바로보기</a></span>
+      </div>
+      <div class="kv"><span>전화</span><span id="profilePhone"></span></div>
+    </aside>
+  </header>
+
+  <!-- FILTERS -->
+  <section class="container">
+    <div class="filters">
+      <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M3 5h18v2H3V5zm4 6h10v2H7v-2zm-2 6h14v2H5v-2z"/></svg>
+      <div id="filterBtns" class="filter-buttons" role="tablist" aria-label="필터"></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="container">
+    <div class="section-head">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-sub">Web · UI · UX · Slides · Docs</p>
+    </div>
+    <div id="projectGrid" class="grid"></div>
+  </section>
+
+  <!-- EMBEDS -->
+  <section class="container embeds">
+    <div class="section-head">
+      <h2 class="section-title">Live Embeds</h2>
+      <p class="section-sub">Figma / Slides / PDF 바로보기</p>
+    </div>
+    <div class="embed-card">
+      <div class="embed aspect-video">
+        <iframe id="figmaEmbed" title="Figma" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="embed-card">
+      <div class="embed aspect-video">
+        <iframe id="slidesEmbed" title="Slides" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="embed-card">
+      <div class="embed aspect-video">
+        <iframe id="pdfEmbed" title="PDF"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="container skills">
+    <div class="section-head">
+      <h2 class="section-title">Skills</h2>
+      <p class="section-sub">사용 기술 & 숙련도 (5단계)</p>
+    </div>
+    <div id="skillList" class="skill-list"></div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>반응형 · 순수 /HTML/CSS/JS/</div>
+      <div class="links">
+        <a id="footerGithub" target="_blank" rel="noreferrer">GitHub</a>
+        <a id="footerLinkedin" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a id="footerMail" href="#">Contact</a>
+      </div>
+    </div>
+    <div class="container copyright">
+      <span id="copyright"></span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
