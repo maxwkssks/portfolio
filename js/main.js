@@ -22,7 +22,8 @@
       github: "https://github.com/maxwkssks",
       linkedin: "https://www.linkedin.com",
       resume: "assets/Resume.pdf",
-      mainppt: "https://www.canva.com/design/DAG3sREn_Ok/ct9-J-V8xhXe5tddPFdknQ/view?utm_content=DAG3sREn_Ok&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc72d08d293" // 메인 PPT
+      // 메인 PPT(외부 링크 가능)
+      mainppt: "https://www.canva.com/design/DAG3sREn_Ok/ct9-J-V8xhXe5tddPFdknQ/view?utm_content=DAG3sREn_Ok&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc72d08d293"
     }
   };
 
@@ -36,55 +37,66 @@
   ];
 
   // ===== PROJECTS =====
-  const PROJECTS = [
-    {
-      id:"p1",
-      title:"CookShare — 레시피 웹 (Firebase + Vercel)",
-      type:"web",
-      tags:["HTML","CSS","JS","Firebase"],
-      desc:"레시피 카드, 즐겨찾기, 태그 필터를 갖춘 반응형 요리 웹.",
-      cover:"assets/cover_cookshare_web.jpg",
-      url:"https://your-cookshare-web.example.com",
-      repo:"https://github.com/yourname/cookshare-web"
-    },
-    {
-      id:"p2",
-      title:"UI — CookShare Recipe App (Figma)",
-      type:"ui",
-      tags:["UI","Design","Figma"],
-      desc:"카드형 레시피 목록, 단계별 가이드, 커뮤니티 탭을 포함한 앱 UI 키트.",
-      cover:"assets/cover_cookshare_figma.jpg",
-      figmaEmbed:"https://www.figma.com/design/Qh488nyCDbwZ1pxqFHfNG1/%EA%B0%9C%EC%9D%B8_%EC%88%98%ED%96%89?node-id=0-1"
-    },
-    {
-      id:"p3",
-      title:"UX — 야구 리그 온보딩 흐름",
-      type:"ux",
-      tags:["User Flow","A/B","Sports"],
-      desc:"리그 가입→팀 선택→일정 구독까지의 UX 개선 케이스.",
-      cover:"assets/cover_baseball_ppt.jpg",
-      pptUrl:"https://www.miricanvas.com/v/1561dtk"
-    },
-    {
-      id:"p4",
-      title:"Unity — 로그라이크 액션 RPG",
-      type:"web",
-      tags:["Unity","C#","Gameplay"],
-      desc:"오토어택, 스킬 조합, 웨이브 파밍이 있는 프로젝트.",
-      cover:"assets/cover_weaponmaster.jpg",
-      url:"https://youtu.be/YOUR_DEMO_VIDEO",
-      repo:"https://github.com/yourname/weapon-master"
-    },
-    {
-      id:"p5",
-      title:"문서 — 기술 스택 & 학습 노트(PDF)",
-      type:"doc",
-      tags:["Docs","Study"],
-      desc:"최근 학습 내용과 레퍼런스를 정리한 PDF 문서.",
-      cover:"assets/cover_notes_pdf.jpg",
-      docUrl:"assets/StudyNotes.pdf"
-    }
-  ];
+const PROJECTS = [
+  {
+    id:"p1",
+    title:"CookShare — 레시피 웹 (Firebase + Vercel)",
+    type:"web",
+    tags:["HTML","CSS","JS","Firebase"],
+    desc:"레시피 카드, 즐겨찾기, 태그 필터를 갖춘 반응형 요리 웹.",
+    cover:"assets/creamy_shrimp_pasta.jpg",
+    url:"https://cookshar2.vercel.app/",
+    repo:"https://github.com/yourname/cookshare-web"
+  },
+  {
+    id:"p2",
+    title:"UI — CookShare Recipe App (Figma)",
+    type:"ui",
+    tags:["UI","Design","Figma"],
+    desc:"카드형 레시피 목록, 단계별 가이드, 커뮤니티 탭을 포함한 앱 UI 키트.",
+    cover:"assets/cover_cookshare_figma.jpg",
+    figmaEmbed:"https://www.figma.com/proto/Qh488nyCDbwZ1pxqFHfNG1/%EA%B0%9C%EC%9D%B8_%EC%88%98%ED%96%89?node-id=74-3"
+  },
+  {
+    id:"p3",
+    title:"UX — 야구 리그 온보딩 흐름",
+    type:"ux",
+    tags:["User Flow","A/B","Sports"],
+    desc:"리그 가입→팀 선택→일정 구독까지의 UX 개선 케이스.",
+    cover:"assets/cover_baseball_ppt.jpg",
+    pptUrl:"https://www.miricanvas.com/v/1561dtk"
+  },
+  {
+    id:"p4",
+    title:"Unity — 로그라이크 액션 RPG",
+    type:"web",
+    tags:["Unity","C#","Gameplay"],
+    desc:"오토어택, 스킬 조합, 웨이브 파밍이 있는 프로젝트.",
+    cover:"assets/cover_weaponmaster.jpg",
+    url:"https://youtu.be/YOUR_DEMO_VIDEO",
+    repo:"https://github.com/yourname/weapon-master"
+  },
+  {
+    id:"p5",
+    title:"문서 — 기술 스택 & 학습 노트(PDF)",
+    type:"doc",
+    tags:["Docs","Study"],
+    desc:"최근 학습 내용과 레퍼런스를 정리한 PDF 문서.",
+    cover:"assets/cover_notes_pdf.jpg",
+    docUrl:"assets/StudyNotes.pdf"
+  },
+  // ✅ 여기에 추가된 6번째 카드
+  {
+    id:"p6",
+    title:"⚾ 야구 기록 사이트 (SportVerse)",
+    type:"web",
+    tags:["Baseball","Firebase","Vercel"],
+    desc:"팀별 경기 기록, 선수 통계, 청백전 관리가 가능한 실시간 야구 웹 서비스.",
+    cover:"assets/cover_baseball_record.jpg", // 여기에 넣을 이미지 파일 (예: 야구공/스코어보드 등)
+    url:"https://cook-shar.vercel.app/", // 실제 네 호스팅 링크로 연결
+    repo:"https://github.com/yourname/baseball-record" // 선택 사항
+  }
+];  
 
   const FILTERS = [
     { key:"all", label:"전체" },
@@ -180,14 +192,6 @@
     list.forEach(p=> projectGrid.appendChild(projectCard(p)));
   }
   searchInput.addEventListener("input", renderProjects);
-
-  // Skills
-  const skillList = $("#skillList");
-  skillList.innerHTML = SKILLS.map(s=>`
-    <div class="skill">
-      <div class="row"><span>${s.name}</span><span>${s.level}/5</span></div>
-      <div class="bar"><div class="fill" style="transform:scaleX(${s.level/5})"></div></div>
-    </div>`).join("");
 
   // Embeds(첫 항목 자동 연결)
   const firstFigma = (PROJECTS.find(p=>p.figmaEmbed)||{}).figmaEmbed || "";
