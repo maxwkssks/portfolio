@@ -71,8 +71,8 @@
       type:"web",
       tags:["Unity","C#","Gameplay"],
       desc:"박을려고 오는 차동차 , 여러가지 아이템을 이용해서 클리어 하는 레이싱.",
-      cover:"assets/cover_weaponmaster.jpg",
-      url:"https://youtu.be/YOUR_DEMO_VIDEO",
+      cover:"assets/cover_RACING GAME.jpg",
+      url:"https://youtu.be/QGU8zy8iPy8",
       
     },
     {
