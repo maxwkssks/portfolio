@@ -37,64 +37,66 @@
 
   // ===== PROJECTS =====
   const PROJECTS = [
-    {
-      id:"p1",
-      title:"CookShare — 레시피 웹 (Firebase + Vercel)",
-      type:"web",
-      tags:["HTML","CSS","JS","Firebase"],
-      desc:"레시피 카드, 즐겨찾기, 태그 필터를 갖춘 반응형 요리 웹.",
-      cover:"assets/creamy_shrimp_pasta.jpg",
-      url:"https://cookshar2.vercel.app/",
-      repo:"https://github.com/yourname/cookshare-web"
-    },
-    {
-      id:"p2",
-      title:"UI — CookShare Recipe App (Figma)",
-      type:"ui",
-      tags:["UI","Design","Figma"],
-      desc:"카드형 레시피 목록, 단계별 가이드, 커뮤니티 탭을 포함한 앱 UI 키트.",
-      cover:"assets/cover_cookshare_figma.jpg",
-      figmaEmbed:"https://www.figma.com/proto/Qh488nyCDbwZ1pxqFHfNG1/%EA%B0%9C%EC%9D%B8_%EC%88%98%ED%96%89?node-id=74-3&p=f&t=XmQhTXgRnnEq3XWE-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=74%3A3&show-proto-sidebar=1"
-    },
-    {
-      id:"p3",
-      title:"UX — 야구 리그 온보딩 흐름",
-      type:"ux",
-      tags:["User Flow","A/B","Sports"],
-      desc:"리그 가입→팀 선택→일정 구독까지의 UX 개선 케이스.",
-      cover:"assets/cover_baseball_ppt.jpg",
-      pptUrl:"https://www.miricanvas.com/v/1561dtk"
-    },
-    {
-      id:"p4",
-      title:"Unity — 싱글 플레이 레이싱",
-      type:"web",
-      tags:["Unity","C#","Gameplay"],
-      desc:"박을려고 오는 차동차 , 여러가지 아이템을 이용해서 클리어 하는 레이싱.",
-      cover:"assets/cover_RACING GAME.jpg",
-      url:"https://youtu.be/QGU8zy8iPy8",
-      
-    },
-    {
-      id:"p5",
-      title:"문서 — 기술 스택 & 학습 노트(PDF)",
-      type:"doc",
-      tags:["Docs","Study"],
-      desc:"최근 학습 내용과 레퍼런스를 정리한 PDF 문서.",
-      cover:"assets/cover_notes_pdf.jpg",
-      docUrl:"assets/StudyNotes.pdf"
-    },
-    {
-      id:"p6",
-      title:"⚾ 야구 기록 사이트 (SportVerse)",
-      type:"web",
-      tags:["Baseball","Firebase","Vercel"],
-      desc:"팀별 경기 기록, 선수 통계, 청백전 관리가 가능한 실시간 야구 웹 서비스.",
-      cover:"assets/cover_baseball_record.jpg", // ✅ 새 이미지 (지금 올려준 사진)
-      url:"https://cook-shar.vercel.app/",
-      
-    }
-  ];
+  {
+    id:"p1",
+    title:"CookShare — 레시피 웹 (Firebase + Vercel)",
+    type:"web",
+    tags:["HTML","CSS","JS","Firebase"],
+    desc:"레시피 카드, 즐겨찾기, 태그 필터를 갖춘 반응형 요리 웹.",
+    cover:"assets/creamy_shrimp_pasta.jpg",
+    url:"https://cookshar2.vercel.app/",
+    repo:"https://github.com/yourname/cookshare-web"
+  },
+  {
+    id:"p2",
+    title:"🎮 MiniFun — 미니게임 허브 사이트",
+    type:"web",
+    tags:["Game","JavaScript","Firebase"],
+    desc:"퍼즐, 퀴즈, 반응속도 등 다양한 미니게임을 웹에서 즐길 수 있는 허브 사이트.",
+    cover:"assets/cover_minifun.jpg",
+    url:"https://minifun-hub.vercel.app/",
+    repo:"https://github.com/yourname/minifun-hub"
+  },
+  {
+    id:"p3",
+    title:"UX — 야구 리그 온보딩 흐름",
+    type:"ux",
+    tags:["User Flow","A/B","Sports"],
+    desc:"리그 가입→팀 선택→일정 구독까지의 UX 개선 케이스.",
+    cover:"assets/cover_baseball_ppt.jpg",
+    pptUrl:"https://www.miricanvas.com/v/1561dtk"
+  },
+  {
+  id: "p4",
+  title: "Unity — 싱글 플레이 레이싱 게임",
+  type: "web",
+  tags: ["Unity", "C#", "Racing"],
+  desc: "드리프트, 랩 타이머, 고스트 리플레이를 갖춘 싱글 플레이 레이싱 프로젝트.",
+  cover: "assets/cover_RACING GAME.jpg",
+  url: "https://youtu.be/YOUR_RACING_DEMO",   // 데모 영상 링크로 교체
+  },
+  
+  { 
+    id:"p5",
+    title:"문서 — 기술 스택 & 학습 노트(PDF)",
+    type:"doc",
+    tags:["Docs","Study"],
+    desc:"최근 학습 내용과 레퍼런스를 정리한 PDF 문서.",
+    cover:"assets/cover_notes_pdf.jpg",
+    docUrl:"assets/StudyNotes.pdf"
+  },
+  {
+    id:"p6",
+    title:"⚾ 야구 기록 사이트 (SportVerse)",
+    type:"web",
+    tags:["Baseball","Firebase","Vercel"],
+    desc:"팀별 경기 기록, 선수 통계, 청백전 관리가 가능한 실시간 야구 웹 서비스.",
+    cover:"assets/cover_baseball_record.jpg",
+    url:"https://cook-shar.vercel.app/",
+    repo:"https://github.com/yourname/baseball-record"
+  }
+];
+
 
   const FILTERS = [
     { key:"all", label:"전체" },
