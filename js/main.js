@@ -73,7 +73,7 @@
   tags: ["Unity", "C#", "Racing"],
   desc: "드리프트, 랩 타이머, 고스트 리플레이를 갖춘 싱글 플레이 레이싱 프로젝트.",
   cover: "assets/cover_RACING GAME.jpg",
-  url: "https://youtu.be/YOUR_RACING_DEMO",   // 데모 영상 링크로 교체
+  url: "https://youtu.be/QGU8zy8iPy8?si=hY1VIMG849l_adah",   // 데모 영상 링크로 교체
   },
   
   { 
@@ -93,7 +93,7 @@
     desc:"팀별 경기 기록, 선수 통계, 청백전 관리가 가능한 실시간 야구 웹 서비스.",
     cover:"assets/cover_baseball_record.jpg",
     url:"https://cook-shar.vercel.app/",
-    repo:"https://github.com/yourname/baseball-record"
+    
   }
 ];
 
@@ -178,7 +178,6 @@
         <div class="tags">${(p.tags||[]).map(t=>`<span class="tag">${t}</span>`).join("")}</div>
         <div class="actions">
           ${p.url?`<a href="${p.url}" target="_blank" rel="noreferrer">열기</a>`:""}
-          ${p.repo?`<a href="${p.repo}" target="_blank" rel="noreferrer">코드</a>`:""}
           ${p.figmaEmbed?`<a href="${p.figmaEmbed}" target="_blank" rel="noreferrer">Figma</a>`:""}
           ${p.pptUrl?`<a href="${p.pptUrl}" target="_blank" rel="noreferrer">PPT</a>`:""}
           ${p.docUrl?`<a href="${p.docUrl}" target="_blank" rel="noreferrer">문서</a>`:""}
