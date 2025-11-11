@@ -54,7 +54,7 @@
       tags:["UI","Design","Figma"],
       desc:"카드형 레시피 목록, 단계별 가이드, 커뮤니티 탭을 포함한 앱 UI 키트.",
       cover:"assets/cover_cookshare_figma.jpg",
-      figmaEmbed:"https://www.figma.com/proto/Qh488nyCDbwZ1pxqFHfNG1/%EA%B0%9C%EC%9D%B8_%EC%88%98%ED%96%89?node-id=74-3"
+      figmaEmbed:"https://www.figma.com/proto/Qh488nyCDbwZ1pxqFHfNG1/%EA%B0%9C%EC%9D%B8_%EC%88%98%ED%96%89?node-id=74-3&p=f&t=XmQhTXgRnnEq3XWE-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=74%3A3&show-proto-sidebar=1"
     },
     {
       id:"p3",
@@ -67,13 +67,13 @@
     },
     {
       id:"p4",
-      title:"Unity — 로그라이크 액션 RPG",
+      title:"Unity — 싱글 플레이 레이싱",
       type:"web",
       tags:["Unity","C#","Gameplay"],
-      desc:"오토어택, 스킬 조합, 웨이브 파밍이 있는 프로젝트.",
+      desc:"박을려고 오는 차동차 , 여러가지 아이템을 이용해서 클리어 하는 레이싱.",
       cover:"assets/cover_weaponmaster.jpg",
       url:"https://youtu.be/YOUR_DEMO_VIDEO",
-      repo:"https://github.com/yourname/weapon-master"
+      
     },
     {
       id:"p5",
@@ -91,8 +91,8 @@
       tags:["Baseball","Firebase","Vercel"],
       desc:"팀별 경기 기록, 선수 통계, 청백전 관리가 가능한 실시간 야구 웹 서비스.",
       cover:"assets/cover_baseball_record.jpg", // ✅ 새 이미지 (지금 올려준 사진)
-      url:"https://baseball-recording-app2.vercel.app/",
-      repo:"https://github.com/yourname/baseball-record"
+      url:"https://cook-shar.vercel.app/",
+      
     }
   ];
 
