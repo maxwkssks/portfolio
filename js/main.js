@@ -36,7 +36,7 @@
       desc:"레시피 카드, 즐겨찾기, 태그 필터를 갖춘 반응형 요리 웹.",
       cover:"assets/creamy_shrimp_pasta.jpg",
       url:"https://cookshar2.vercel.app/",
-      repo:"https://github.com/yourname/cookshare-web"
+      
     },
     {
       id:"p2",
@@ -45,8 +45,8 @@
       tags:["Game","JavaScript"],
       desc:"퍼즐, 퀴즈, 반응속도 등 다양한 미니게임을 웹에서 즐길 수 있는 허브 사이트.",
       cover:"assets/cover_minifun.jpg",
-      url:"https://minifun-hub.vercel.app/",
-      repo:"https://github.com/yourname/minifun-hub"
+      url:"https://rei29.vercel.app/",
+      repo:"https://github.com/maxwkssks/rei29"
     },
     {
       id:"p6",
@@ -56,7 +56,7 @@
       desc:"팀별 경기 기록, 선수 통계, 청백전 관리가 가능한 실시간 야구 웹 서비스.",
       cover:"assets/cover_baseball_record.jpg",
       url:"https://cook-shar.vercel.app/",
-      repo:"https://github.com/yourname/baseball-record"
+      
     }
   ];
 
