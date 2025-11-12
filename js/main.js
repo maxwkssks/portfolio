@@ -1,5 +1,5 @@
 (function(){
-  // CSS 로드 확인 배너
+  // ===== CSS 로드 확인 배너 =====
   function ensureCssLoaded(){
     const v = getComputedStyle(document.documentElement).getPropertyValue('--text');
     if(!v){
@@ -13,91 +13,54 @@
 
   // ===== PROFILE =====
   const PROFILE = {
-    name: "윤희수 (Youn hee soo)",
-    role: "Game Dev & Full-stack Student",
-    bio: "Unity·웹·IoT 프로젝트를 만드는 개발자/크리에이터. 실험을 즐기며, 사용자 경험과 퍼포먼스를 함께 챙깁니다.",
-    phone: "010-8339-9585",
-    badges: ["Unity","Web","IoT"],
+    name: "공용 포트폴리오",
+    role: "웹 프론트엔드 · UIUX 디자이너",
+    bio: "다양한 웹 프로젝트를 기획·디자인·개발까지 직접 진행하며 완성도를 높여가고 있습니다.",
+    phone: "010-0000-0000",
+    badges: ["HTML", "CSS", "JavaScript", "Firebase", "Figma"],
     links: {
-      github: "https://github.com/maxwkssks",
-      linkedin: "https://www.linkedin.com",
+      github: "https://github.com/yourname",
+      linkedin: "https://linkedin.com/in/yourname",
       resume: "assets/Resume.pdf",
-      mainppt: "https://www.canva.com/design/DAG3sREn_Ok/ct9-J-V8xhXe5tddPFdknQ/view?utm_content=DAG3sREn_Ok&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc72d08d293"
+      mainppt: "https://docs.google.com/presentation/your-ppt-link"
     }
   };
 
-  // ===== SKILLS =====
-  const SKILLS = [
-    { name: "C", level: 3 }, { name: "C++", level: 2 }, { name: "Java", level: 2 },
-    { name: "Python", level: 5 }, { name: "JavaScript", level: 4 }, { name: "TypeScript", level: 3 },
-    { name: "HTML/CSS", level: 4 }, { name: "React / Node.js", level: 3 },
-    { name: "Firebase", level: 3 }, { name: "Unity (C#)", level: 4 },
-    { name: "Arduino / IoT", level: 3 }, { name: "Figma", level: 4 }, { name: "PPT / Keynote", level: 4 }
-  ];
-
   // ===== PROJECTS =====
   const PROJECTS = [
-  {
-    id:"p1",
-    title:"CookShare — 레시피 웹 (Firebase + Vercel)",
-    type:"web",
-    tags:["HTML","CSS","JS","Firebase"],
-    desc:"레시피 카드, 즐겨찾기, 태그 필터를 갖춘 반응형 요리 웹.",
-    cover:"assets/creamy_shrimp_pasta.jpg",
-    url:"https://cookshar2.vercel.app/",
-    repo:"https://github.com/yourname/cookshare-web"
-  },
-  {
-    id:"p2",
-    title:"🎮 MiniFun — 미니게임 허브 사이트",
-    type:"web",
-    tags:["Game","JavaScript","Firebase"],
-    desc:"퍼즐, 퀴즈, 반응속도 등 다양한 미니게임을 웹에서 즐길 수 있는 허브 사이트.",
-    cover:"assets/cover_minifun.jpg",
-    url:"https://minifun-hub.vercel.app/",
-    repo:"https://github.com/yourname/minifun-hub"
-  },
-  {
-    id:"p3",
-    title:"UX — 야구 리그 온보딩 흐름",
-    type:"ux",
-    tags:["User Flow","A/B","Sports"],
-    desc:"리그 가입→팀 선택→일정 구독까지의 UX 개선 케이스.",
-    cover:"assets/cover_baseball_ppt.jpg",
-    pptUrl:"https://www.miricanvas.com/v/1561dtk"
-  },
-  {
-  id: "p4",
-  title: "Unity — 싱글 플레이 레이싱 게임",
-  type: "web",
-  tags: ["Unity", "C#", "Racing"],
-  desc: "드리프트, 랩 타이머, 고스트 리플레이를 갖춘 싱글 플레이 레이싱 프로젝트.",
-  cover: "assets/cover_RACING GAME.jpg",
-  url: "https://youtu.be/QGU8zy8iPy8?si=hY1VIMG849l_adah",   // 데모 영상 링크로 교체
-  },
-  
-  { 
-    id:"p5",
-    title:"문서 — 기술 스택 & 학습 노트(PDF)",
-    type:"doc",
-    tags:["Docs","Study"],
-    desc:"최근 학습 내용과 레퍼런스를 정리한 PDF 문서.",
-    cover:"assets/cover_notes_pdf.jpg",
-    docUrl:"assets/StudyNotes.pdf"
-  },
-  {
-    id:"p6",
-    title:"⚾ 야구 기록 사이트 (SportVerse)",
-    type:"web",
-    tags:["Baseball","Firebase","Vercel"],
-    desc:"팀별 경기 기록, 선수 통계, 청백전 관리가 가능한 실시간 야구 웹 서비스.",
-    cover:"assets/cover_baseball_record.jpg",
-    url:"https://cook-shar.vercel.app/",
-    
-  }
-];
+    {
+      id:"p1",
+      title:"CookShare — 레시피 웹 (Firebase + Vercel)",
+      type:"web",
+      tags:["HTML","CSS","JS","Firebase"],
+      desc:"레시피 카드, 즐겨찾기, 태그 필터를 갖춘 반응형 요리 웹.",
+      cover:"assets/creamy_shrimp_pasta.jpg",
+      url:"https://cookshar2.vercel.app/",
+      repo:"https://github.com/yourname/cookshare-web"
+    },
+    {
+      id:"p2",
+      title:"🎮 MiniFun — 미니게임 허브 사이트",
+      type:"web",
+      tags:["Game","JavaScript"],
+      desc:"퍼즐, 퀴즈, 반응속도 등 다양한 미니게임을 웹에서 즐길 수 있는 허브 사이트.",
+      cover:"assets/cover_minifun.jpg",
+      url:"https://minifun-hub.vercel.app/",
+      repo:"https://github.com/yourname/minifun-hub"
+    },
+    {
+      id:"p6",
+      title:"⚾ 야구 기록 사이트 (SportVerse)",
+      type:"web",
+      tags:["Baseball","Firebase","Vercel"],
+      desc:"팀별 경기 기록, 선수 통계, 청백전 관리가 가능한 실시간 야구 웹 서비스.",
+      cover:"assets/cover_baseball_record.jpg",
+      url:"https://cook-shar.vercel.app/",
+      repo:"https://github.com/yourname/baseball-record"
+    }
+  ];
 
-
+  // ===== FILTERS =====
   const FILTERS = [
     { key:"all", label:"전체" },
     { key:"web", label:"웹" },
@@ -107,9 +70,10 @@
     { key:"doc", label:"문서" }
   ];
 
+  // ===== 유틸 =====
   const $ = (sel,root=document)=>root.querySelector(sel);
 
-  // 프로필 데이터 바인딩
+  // ===== 프로필 데이터 바인딩 =====
   $("#profileName").textContent = PROFILE.name;
   $("#profileRole").textContent = PROFILE.role;
   $("#profileBio").textContent = PROFILE.bio;
@@ -135,7 +99,7 @@
     badgesWrap.appendChild(span);
   });
 
-  // 필터 버튼 생성
+  // ===== 필터 버튼 생성 =====
   const filterBtns = $("#filterBtns");
   let currentFilter = "all";
   function drawFilters(){
@@ -155,7 +119,7 @@
     });
   }
 
-  // 프로젝트 렌더링
+  // ===== 프로젝트 렌더링 =====
   const projectGrid = $("#projectGrid");
   const searchInput = $("#searchInput");
   function matchQuery(p, q){
@@ -178,9 +142,6 @@
         <div class="tags">${(p.tags||[]).map(t=>`<span class="tag">${t}</span>`).join("")}</div>
         <div class="actions">
           ${p.url?`<a href="${p.url}" target="_blank" rel="noreferrer">열기</a>`:""}
-          ${p.figmaEmbed?`<a href="${p.figmaEmbed}" target="_blank" rel="noreferrer">Figma</a>`:""}
-          ${p.pptUrl?`<a href="${p.pptUrl}" target="_blank" rel="noreferrer">PPT</a>`:""}
-          ${p.docUrl?`<a href="${p.docUrl}" target="_blank" rel="noreferrer">문서</a>`:""}
         </div>
       </div>`;
     return card;
@@ -195,7 +156,7 @@
 
   searchInput.addEventListener("input", renderProjects);
 
-  // 첫 임베드 자동 설정
+  // ===== 첫 임베드 자동 설정 =====
   const firstFigma = (PROJECTS.find(p=>p.figmaEmbed)||{}).figmaEmbed || "";
   const firstSlides = (PROJECTS.find(p=>p.pptUrl)||{}).pptUrl || "";
   const firstPdf = (PROJECTS.find(p=>p.docUrl)||{}).docUrl || "assets/StudyNotes.pdf";
@@ -203,6 +164,7 @@
   if(firstSlides) document.querySelector("#slidesEmbed").src = firstSlides;
   if(firstPdf) document.querySelector("#pdfEmbed").src = firstPdf;
 
+  // ===== 실행 =====
   drawFilters();
-  renderProjects();
+  renderProjects(PROJECTS);
 })();
