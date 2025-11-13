@@ -22,7 +22,7 @@
       github: "https://github.com/yourname",
       linkedin: "https://linkedin.com/in/yourname",
       resume: "assets/Resume.pdf",
-      mainppt: "https://docs.google.com/presentation/your-ppt-link"
+      mainppt: "https://www.canva.com/design/DAG3sREn_Ok/mB_ra3UqnkgqQdEFPXDZyg/edit?utm_content=DAG3sREn_Ok&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
     }
   };
 
