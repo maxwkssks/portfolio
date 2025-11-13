@@ -16,7 +16,7 @@
     name: "공용 포트폴리오",
     role: "웹 프론트엔드 · UIUX 디자이너",
     bio: "다양한 웹 프로젝트를 기획·디자인·개발까지 직접 진행하며 완성도를 높여가고 있습니다.",
-    phone: "010-0000-0000",
+    phone: "010-8339-9585",
     badges: ["HTML", "CSS", "JavaScript", "Firebase", "Figma"],
     links: {
       github: "https://github.com/yourname",
